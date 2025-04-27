@@ -1,0 +1,109 @@
+#rasathane-enhancer-container {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+#rasathane-header-info {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#rasathane-header-info h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+#rasathane-header-info h2 {
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #555;
+    margin: 0 0 8px 0;
+}
+
+#rasathane-header-info p {
+    font-size: 0.9em;
+    color: #777;
+    margin: 0;
+}
+
+#rasathane-filter-container {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+#rasathane-filter-container label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 0.95em;
+    color: #495057;
+}
+
+#rasathane-filter-container input[type="text"] {
+    padding: 6px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    flex-grow: 1;
+    min-width: 250px;
+    font-size: 0.95em;
+}
+
+#rasathane-earthquake-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+}
+
+#rasathane-earthquake-table th,
+#rasathane-earthquake-table td {
+    border: 1px solid #ddd;
+    padding: 6px 8px;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#rasathane-earthquake-table td:nth-child(9),
+#rasathane-earthquake-table td:nth-child(10) {
+    white-space: normal;
+}
+
+#rasathane-earthquake-table th:nth-child(5),
+#rasathane-earthquake-table th:nth-child(6),
+#rasathane-earthquake-table th:nth-child(7),
+#rasathane-earthquake-table th:nth-child(8),
+#rasathane-earthquake-table th:nth-child(11),
+#rasathane-earthquake-table td:nth-child(5),
+#rasathane-earthquake-table td:nth-child(6),
+#rasathane-earthquake-table td:nth-child(7),
+#rasathane-earthquake-table td:nth-child(8),
+#rasathane-earthquake-table td:nth-child(11) {
+    text-align: center;
+}
+
+#rasathane-earthquake-table th {
+    background-color: #e9ecef;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #495057;
+}
+
+#rasathane-earthquake-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+#rasathane-earthquake-table tr:hover {
+    background-color: #e2e6ea;
+}
