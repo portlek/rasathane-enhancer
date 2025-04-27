@@ -11,5 +11,10 @@
       "run_at": "document_idle"
     }
   ],
-  "host_permissions": ["http://www.koeri.boun.edu.tr/scripts/lst8.asp"]
+  "host_permissions": ["http://www.koeri.boun.edu.tr/scripts/lst8.asp"],
+  "browser_specific_settings": {
+     "gecko": {
+       "id": "rasathane-enhancer@portlek.github.io"
+     }
+   }
 }
