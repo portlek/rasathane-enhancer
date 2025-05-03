@@ -5,13 +5,13 @@
   "description": "Filters earthquake list by location and adds 'Time Ago' information.",
   "content_scripts": [
     {
-      "matches": ["http://www.koeri.boun.edu.tr/scripts/lst8.asp"],
+      "matches": ["http://www.koeri.boun.edu.tr/scripts/lst*.asp"],
       "js": ["content.js"],
       "css": ["styles.css"],
       "run_at": "document_idle"
     }
   ],
-  "host_permissions": ["http://www.koeri.boun.edu.tr/scripts/lst8.asp"],
+  "host_permissions": ["http://www.koeri.boun.edu.tr/scripts/*"],
   "browser_specific_settings": {
      "gecko": {
        "id": "rasathane-enhancer@portlek.github.io"
